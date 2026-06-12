@@ -1,15 +1,11 @@
 # act.js
 
 Active entities for JavaScript.
-
 Reactivity emerges from activity.
 
 Concept
-
 Act is based on a single idea: active entities.
-
 An active entity is a function that can be:
-
 read by calling it
 written by calling it with a value
 value();      // read
@@ -37,6 +33,7 @@ sum(); // 3
 a(5);
 
 sum(); // 7
+
 Dynamic dependencies
 
 Only the executed path is tracked.
