@@ -42,8 +42,8 @@ let a = act(1);
 let b = act(2);
 
 let value = act(() => flag() ? a() : b());
-Side effects
 
+Side effects
 Functions executed inside active entities react to dependency changes.
 
 let count = act(0);
