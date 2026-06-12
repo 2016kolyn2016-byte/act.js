@@ -20,6 +20,7 @@ let count = act(0);
 count();   // 0
 count(1);
 count();   // 1
+
 Computations
 
 Active entities can depend on other active entities.
