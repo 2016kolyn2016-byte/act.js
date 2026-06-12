@@ -8,8 +8,10 @@ Act is based on a single idea: active entities.
 An active entity is a function that can be:
 read by calling it
 written by calling it with a value
+
 value();      // read
 value(x);     // write
+
 Values
 let count = act(0);
 
@@ -18,9 +20,7 @@ count(1);
 count();   // 1
 
 Computations
-
 Active entities can depend on other active entities.
-
 Dependencies are tracked automatically.
 
 let a = act(1);
@@ -35,7 +35,6 @@ a(5);
 sum(); // 7
 
 Dynamic dependencies
-
 Only the executed path is tracked.
 
 let flag = act(true);
@@ -55,10 +54,9 @@ act(() => {
 
 count(1);
 count(2);
+
 Model
-
 Active entities form a dependency graph at runtime.
-
 Updates propagate through dependent entities.
 
 Summary
