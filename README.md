@@ -66,4 +66,4 @@ Dependencies are automatic
 Execution builds the graph
 Updates propagate through dependencies
 
-Reactivity emerges from activity.
+The use of parentheses is due to the fact that in JavaScript it is not possible to overload access methods (getters/setters) to variables.
